@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<div style=" background-color:white;
+          text-align: center; 
+               color: white;
+               ">
+<input type="text" id= "uni"  style="width: 800px;height:70px;font-size: 20px;border:4px solid black"/><br><br>
+<button onclick="char1()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">1</button>
+<button onclick="char2()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">2</button>
+<button onclick="char3()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">3</button>
+<button onclick="char4()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">4</button>
+<button onclick="char5()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">5</button>
+<button onclick="char6()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">6</button>
+<button onclick="char7()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">7</button>
+<button onclick="char8()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">8</button>
+<button onclick="char9()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">9</button>
+<button onclick="char0()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">0</button>
+<button onclick="charDEL()" style="width: 80px;height: 50px;color:white;font-size:15px;background-color: black;">DEL</button>
+  <br><br>
+<button onclick="charQ()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">Q</button>
+<button onclick="charQ()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">W</button>
+<button onclick="charQ()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">R</button>
+<button onclick="charW()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">W</button>
+<button onclick="charE()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">E</button>
+<button onclick="charR()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">R</button>
+<button onclick="charT()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">T</button>
+<button onclick="charY()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">Y</button>
+<button onclick="charU()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">U</button> 
+<button onclick="charI()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">I</button>
+<button onclick="charO()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">O</button>
+<button onclick="charP()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">P</button>
+<br><br>
+<button onclick="charA()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">A</button>
+<button onclick="charS()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">S</button>
+<button onclick="charD()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">D</button>
+<button onclick="charF()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">F</button>	
+<button onclick="charG()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">G</button>
+<button onclick="charH()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">H</button>
+<button onclick="charJ()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">J</button>
+<button onclick="charK()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">K</button>
+<button onclick="charL()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">L</button>
+<br><br>
+<button onclick="charZ()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">Z</button>
+<button onclick="charX()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">X</button>
+<button onclick="charC()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">C</button>
+<button onclick="charV()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">V</button>
+<button onclick="charB()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">B</button>
+<button onclick="charN()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">N</button>
+<button onclick="charM()" style="width: 50px;height: 50px;color:white;font-size:15px;background-color: black;">M</button>
+<button onclick="charcom()" style="width: 80px;height:50px;color:white;font-size:15px;background-color: black;;">.com</button>
+<br><br>
+<button onclick="spaacebar()" style="width: 300px;height:50px;font-size:25px;background-color: black;color:green;">spacebar</button>
+<br><br>
+<button onclick="charREV()" style="width:100px;height: 50px;border:solid">REV</button>
+<script type="text/javascript">
+        function char1(){
+    document.getElementById('uni').value += "1"                        
+        } 
+        function char2(){
+    document.getElementById('uni').value += "2"                        
+        } 
+        function char3(){
+    document.getElementById('uni').value += "3"                        
+        } 
+        function char4(){
+    document.getElementById('uni').value += "4"                        
+        } 
+        function char5(){
+    document.getElementById('uni').value += "5"                        
+        } 
+        function char6(){
+    document.getElementById('uni').value += "6"                        
+        } 
+        function char7(){
+    document.getElementById('uni').value += "7"                        
+        } 
+        function char8(){
+    document.getElementById('uni').value += "8"                        
+        } 
+        function char9(){
+    document.getElementById('uni').value += "9"                        
+        } 
+        function char0(){
+    document.getElementById('uni').value += "0"                        
+        } 
+        function charQ(){
+    document.getElementById('uni').value += "Q"                        
+        } 
+  function charW(){
+  document.getElementById('uni').value += "W"
+   }
+  function charE(){
+  document.getElementById('uni').value += "E"
+   }
+    function charR(){
+document.getElementById('uni').value += "R"
+   }
+   function charT(){
+document.getElementById('uni').value += "T"
+   }
+function charY(){
+document.getElementById('uni').value += "Y"
+   }
+  function charU(){
+document.getElementById('uni').value += "U"
+   } 
+function charI(){
+document.getElementById('uni').value += "I"
+   }
+function charO(){
+document.getElementById('uni').value += "O"
+   }
+function charp(){
+document.getElementById('uni').value += "p"
+   }
+function charA(){
+document.getElementById('uni').value += "A"
+   }
+function charS(){
+document.getElementById('uni').value += "S"
+   }
+function charD(){
+document.getElementById('uni').value += "D"
+   }
+function charF(){
+document.getElementById('uni').value += "F"
+   }
+
+function charG(){
+document.getElementById('uni').value += "G"
+   }
+  function charH(){
+document.getElementById('uni').value += "H"
+   } 
+function charJ(){
+document.getElementById('uni').value += "J"
+   }
+ function charK(){
+document.getElementById('uni').value += "K"
+   }
+
+function charL(){
+document.getElementById('uni').value += "L"
+   }
+function charZ(){
+document.getElementById('uni').value += "Z"
+   }
+
+function charX(){
+document.getElementById('uni').value += "X"
+   }
+function charC(){
+document.getElementById('uni').value += "C"
+   }
+ function charV(){
+document.getElementById('uni').value += "V"
+   }
+
+function charB(){
+document.getElementById('uni').value += "B"
+   }
+
+ function charN(){
+document.getElementById('uni').value += "N" 
+        }
+
+function charM(){
+document.getElementById('uni').value += "M"                    
+        }
+
+function charcom(){
+document.getElementById('uni').value += ".com"                      
+        }
+
+function charREV(){
+var s =document.getElementById('uni').value;
+      document.getElementById('uni').value=""
+for (var i=s.length-1;i>=0;i--)
+{
+document.getElementById('uni').value+=s[i]
+  
+            }
+         }
+   function charDEL(){
+document.getElementById('uni').value = ""
+  }
+   function spacebar(){
+    document.getElementById('uni').value +=" "
+   }
+</script>
+</body>
+</html>
+
